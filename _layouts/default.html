@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: compress
 # Default layout
 ---
@@ -47,5 +48,29 @@ layout: compress
     {% include search-loader.html %}
 
   </body>
+=======
+#layout: compress # enable only if needed
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | slice: 0,2 | default: "en" }}">
+
+{% include head.html %}
+
+<body>
+  <!-- page container -->
+  <div class="page-container">
+    <!-- page header -->
+    {% include header.html %}
+    <!-- page content -->
+    <main class="page-content" role="main">
+      {{ content }}
+    </main>
+    <!-- page footer -->
+    {% include footer.html %}
+  </div>
+  {% include scripts.html %}
+</body>
+>>>>>>> 7675f191ddcf2917855a738ddfcea95a20678310
 
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 root = true
 
 [*]
@@ -9,3 +10,18 @@ trim_trailing_whitespace = true
 # Unix-style newlines with a newline ending every file
 end_of_line = lf
 insert_final_newline = true
+=======
+# editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+>>>>>>> 7675f191ddcf2917855a738ddfcea95a20678310

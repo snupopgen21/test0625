@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hidden files
 .*
 !.git*
@@ -16,3 +17,35 @@ Gemfile.lock
 # npm dependencies
 node_modules
 package-lock.json
+=======
+# borrowed from
+# https://github.com/github/gitignore.git
+
+# Jekyll.gitignore
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby.gitignore
+*.gem
+*.rbc
+/.bundle/
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+Gemfile.lock
+.ruby-version
+.ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Node.gitignore
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Editor generated files
+.vscode
+*.swp
+>>>>>>> 7675f191ddcf2917855a738ddfcea95a20678310

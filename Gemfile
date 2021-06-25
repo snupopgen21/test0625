@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
+<<<<<<< HEAD
 
 gemspec
 
@@ -17,3 +18,6 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+=======
+gemspec
+>>>>>>> 7675f191ddcf2917855a738ddfcea95a20678310
